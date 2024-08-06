@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+
+img{
+    margin: 80px;
+    border: 1px solid;
+    padding: 10px;
+    width: 200px;
+}
+
+.translate:hover~img{
+   
+   transform: translate(200px);
+}
+.rotate:hover~img{
+transform: rotate(40deg);
+}
+.scale:hover~img{
+    transform: scale(1.5);
+}
+.scew:hover~img{
+    transform: skew(40deg);
+}
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Transform examples</h1>
+<button class="translate">translate</button>
+<button class="rotate">rotate</button>
+<button class="scale">scale</button>
+<button class="scew">scew</button><br>
+<img src="https://tse1.mm.bing.net/th?id=OIP.UlBhqmftKSqCDat2FGGWIgHaJ0&pid=Api&P=0&h=220">
+</div>
+</body>
+</html>
